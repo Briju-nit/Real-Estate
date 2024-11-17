@@ -1,0 +1,34 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '5000:5000'
+    volumes:
+      - ./:/app
+    env_file:
+      - .env
+    depends_on:
+      - mongo
+    
+  frontend:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./client:/app
+    env_file:
+      - .env
+    
+  mongo:
+    image: mongo:latest
+    ports:
+      - '27017:27017'
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:
