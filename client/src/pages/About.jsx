@@ -2,13 +2,40 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div className='py-20 px-4 max-w-6xl mx-auto'>
-      <h1 className='text-3xl font-bold mb-4 text-slate-800'>About Sahand Estate</h1>
-      <p className='mb-4 text-slate-700'>Sahand Estate is a leading real estate agency that specializes in helping clients buy, sell, and rent properties in the most desirable neighborhoods. Our team of experienced agents is dedicated to providing exceptional service and making the buying and selling process as smooth as possible.</p>
-      <p className='mb-4 text-slate-700'>
-      Our mission is to help our clients achieve their real estate goals by providing expert advice, personalized service, and a deep understanding of the local market. Whether you are looking to buy, sell, or rent a property, we are here to help you every step of the way.
-      </p>
-      <p className='mb-4 text-slate-700'>Our team of agents has a wealth of experience and knowledge in the real estate industry, and we are committed to providing the highest level of service to our clients. We believe that buying or selling a property should be an exciting and rewarding experience, and we are dedicated to making that a reality for each and every one of our clients.</p>
+    <div>
+      <div className='py-20 px-4 max-w-6xl mx-auto'>
+        <h1 className='text-4xl font-extrabold mb-6 text-slate-800 text-center'>About Briju Estate</h1>
+        <p className='mb-6 text-lg text-slate-700 leading-relaxed'>
+          <span className='font-semibold text-slate-500'>Briju Estate</span> is a premier real estate agency
+          specializing in buying, selling, and renting properties in the most sought-after neighborhoods.
+          Our team of experienced agents is committed to providing unparalleled service, ensuring a seamless
+          and stress-free experience for our clients.
+        </p>
+
+        <p className='mb-6 text-lg text-slate-700 leading-relaxed'>
+          <span className='font-semibold text-slate-500'>Our Mission</span> To help you achieve your real estate dreams with
+          expert guidance, personalized service, and deep local market insights. Whether you're buying your dream
+          home, selling a cherished property, or searching for the perfect rental, we’re here to support you every
+          step of the way.
+        </p>
+
+        <p className='mb-6 text-lg text-slate-700 leading-relaxed text-center'>
+          Our dedicated team brings a wealth of experience and industry expertise to the table.
+          At <span>Briju Estate</span>, we believe that buying or selling a property
+          is more than a transaction—it’s a journey. We’re here to ensure that journey is as exciting and rewarding
+          as possible.
+        </p>
+
+        <div className='mt-8'>
+          <p className='text-lg text-slate-700 text-center font-semibold'>
+            <span className='text-slate-500'>Discover the difference with Briju Estate—where every property journey becomes a remarkable story.</span>
+          </p>
+          <p className='text-lg text-slate-700 text-center font-semibold'>
+            <span className='text-slate-500'>Your dream home awaits!</span>
+          </p>
+        </div>
+      </div>
     </div>
+
   )
 }

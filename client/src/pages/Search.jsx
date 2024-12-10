@@ -144,9 +144,9 @@ export default function Search() {
               onChange={handleChange}
             />
           </div>
-          <div className='flex gap-2 flex-wrap items-center'>
+          <div className='flex gap-5 flex-wrap items-center'>
             <label className='font-semibold'>Type:</label>
-            <div className='flex gap-2'>
+            <div className='flex gap-1'>
               <input
                 type='checkbox'
                 id='all'
@@ -156,7 +156,7 @@ export default function Search() {
               />
               <span>Rent & Sale</span>
             </div>
-            <div className='flex gap-2'>
+            <div className='flex gap-1'>
               <input
                 type='checkbox'
                 id='rent'
@@ -166,7 +166,7 @@ export default function Search() {
               />
               <span>Rent</span>
             </div>
-            <div className='flex gap-2'>
+            <div className='flex gap-1'>
               <input
                 type='checkbox'
                 id='sale'
@@ -176,7 +176,7 @@ export default function Search() {
               />
               <span>Sale</span>
             </div>
-            <div className='flex gap-2'>
+            <div className='flex gap-1'>
               <input
                 type='checkbox'
                 id='offer'
@@ -187,9 +187,9 @@ export default function Search() {
               <span>Offer</span>
             </div>
           </div>
-          <div className='flex gap-2 flex-wrap items-center'>
+          <div className='flex gap-5 flex-wrap items-center'>
             <label className='font-semibold'>Amenities:</label>
-            <div className='flex gap-2'>
+            <div className='flex gap-1'>
               <input
                 type='checkbox'
                 id='parking'
@@ -199,7 +199,7 @@ export default function Search() {
               />
               <span>Parking</span>
             </div>
-            <div className='flex gap-2'>
+            <div className='flex gap-1'>
               <input
                 type='checkbox'
                 id='furnished'
