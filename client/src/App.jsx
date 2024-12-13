@@ -11,6 +11,7 @@ import UpdateListing from './pages/UpdateListing';
 import Listing from './pages/Listing';
 import Search from './pages/Search';
 import Footer from './components/Footer.jsx';
+import '@rollup/plugin-node-resolve';
 
 export default function App() {
   return (
